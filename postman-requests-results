@@ -1,0 +1,41 @@
+Post/Creat
+Http://127.0.0.1:8000/api/jokes
+{
+    "joke": {
+        "setup": "What do you call a bee that can't make up its mind?",
+        "punchline": " A maybe.",
+        "_id": "6310e19632dbf6ba2cde39c1",
+        "createdAt": "2022-09-01T16:45:10.491Z",
+        "updatedAt": "2022-09-01T16:45:10.491Z",
+        "__v": 0
+    }
+}
+
+
+Get/ReadAll
+Http://127.0.0.1:8000/api/jokes
+{
+    "jokes": [
+        {
+            "_id": "6310e16832dbf6ba2cde39bf",
+            "setup": "What do you call it when Batman skips church??",
+            "punchline": " Christian Bale...",
+            "createdAt": "2022-09-01T16:44:24.021Z",
+            "updatedAt": "2022-09-01T16:44:24.021Z",
+            "__v": 0
+        },
+        {
+            "_id": "6310e19632dbf6ba2cde39c1",
+            "setup": "What do you call a bee that can't make up its mind?",
+            "punchline": " A maybe.",
+            "createdAt": "2022-09-01T16:45:10.491Z",
+            "updatedAt": "2022-09-01T16:45:10.491Z",
+            "__v": 0
+        }
+    ]
+}
+
+Delete/Delete
+Http://localhost:8000/api/jokes/6310e0ba32dbf6ba2cde39bd
+
+Put/Update:Http://127.0.0.1:8000/api/jokes/6310e0ba32dbf6ba2cde39bd
